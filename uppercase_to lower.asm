@@ -8,7 +8,7 @@ main proc
     int 21h
     mov bl,al
     
-    add bl,32        ;fix korte parlam nah
+    sub bl,32        
 
     mov ah,2        
     mov dl,bl       
