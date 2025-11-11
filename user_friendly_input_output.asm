@@ -4,6 +4,8 @@
 a db 'Enter a Character: $'
 b db 'Your Character is: $'
 
+c db ?
+
 .code
 main proc
     mov ax,@data

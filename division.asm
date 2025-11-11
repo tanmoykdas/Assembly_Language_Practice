@@ -16,6 +16,11 @@ main proc
     mov dl,cl
     add dl,48
     int 21h
+            
+            
+    mov ah,2
+    mov dl,32
+    int 21h
     
     mov ah,2
     mov dl,ch 

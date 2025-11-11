@@ -11,12 +11,14 @@ main proc
     int 21h
     mov bh,al
     
-    add bl,bh 
+    add bl,bh
+    
+    mov dl,bl
+    sub dl,48 
+    
     
     mov ah,2
-    mov dl,bl
-    sub dl,48
-    int 21h
+    int 21h 
     
     mov ah,4ch
     int 21h
